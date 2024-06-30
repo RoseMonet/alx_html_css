@@ -115,7 +115,7 @@ footer p {
     margin: 0;
 }
 
-blockquote {
+div + blockquote {
     font-size: 18px;
     font-style: normal;
     color: white;
