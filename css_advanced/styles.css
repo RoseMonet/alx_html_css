@@ -58,15 +58,9 @@ button {
     cursor: pointer;
 }
 
-main  section  div{
+section {
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    color: white;
-    text-align: center;
-}
-
-section {
     padding: 60px 20px;
     text-align: center;
     color: white;
@@ -76,6 +70,7 @@ section h2 {
     font-size: 36px;
     margin-bottom: 20px;
     color: white;
+    text-align: center;
 }
 
 section > div {
