@@ -58,6 +58,13 @@ button {
     cursor: pointer;
 }
 
+main section > div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: white;
+}
+
 section {
     padding: 60px 20px;
     text-align: center;
