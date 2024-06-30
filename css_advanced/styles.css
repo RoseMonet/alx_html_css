@@ -1,1 +1,12 @@
-
+blockquote  {
+  border-style: solid;
+  border-color: rgb(194, 113, 255);
+  background-color: rgb(194, 113, 255);
+  font-family: Source Sans Pro;
+  color: white;
+}
+div p {
+  font-family: Source Sans Pro;
+  font-style: italic;
+  color: white;
+}
