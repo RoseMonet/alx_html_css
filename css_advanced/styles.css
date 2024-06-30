@@ -2,24 +2,26 @@ body {
     font-family: Source Sans Pro;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    background-image: url('C:\Users\rosem\OneDrive\Pictures\Screenshots\Screenshot 2024-06-30 214826.png');
-    background-size: cover; /* or 'contain', 'auto' */
-    background-repeat: no-repeat; /* or 'repeat' */
-    background-position: center; /* or 'top', 'bottom', 'left', 'right' */
+    background-color: #29303D;
 }
 
 header {
-    background-color: #29303D;
+    background: url('path-to-your-background-image.jpg') no-repeat center center;
+    background-size: cover;
     color: white;
-    padding: 10px 0;
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
 }
 
 nav {
+    position: absolute;
+    top: 20px;
+    left: 20px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    justify-content: space-between;
+    width: calc(100% - 40px);
 }
 
 nav img {
@@ -35,64 +37,86 @@ nav ul {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
-main {
-    padding: 20px;
+header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+header span {
+    display: inline-block;
+    margin: 10px;
+    font-size: 16px;
+    color: #ccc;
+}
+
+header button {
+    padding: 10px 20px;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 section {
-    margin-bottom: 40px;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
 }
 
 section > div {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
-h1, h2, h3 {
-    color: white;
-}
-
-button {
-    padding: 10px 20px;
-    background-color:rgb(194, 113, 255);
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #rgb(194, 113, 255);
-}
-
-img {
-    max-width: 100%;
-    height: auto;
+section img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
 }
 
 footer {
     background-color: #333;
-    color: #fff;
+    color: white;
     padding: 20px;
     text-align: center;
 }
 
 footer div {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
+    gap: 10px;
 }
 
 footer i {
+    color: white;
     margin: 0 5px;
-    color: #fff;
-    cursor: pointer;
 }
 
 footer p {
-    margin: 0;
+    margin: 10px 0 0;
+}
+
+blockquote {
+    font-size: 18px;
+    font-style: italic;
+    color: #666;
+    margin: 20px;
+}
+
+blockquote h3 {
+    margin: 10px 0 0;
+    font-weight: bold;
+    color: #333;
 }
 
