@@ -3,7 +3,10 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #29303D;
+    background-image: url('C:\Users\rosem\OneDrive\Pictures\Screenshots\Screenshot 2024-06-30 214826.png');
+    background-size: cover; /* or 'contain', 'auto' */
+    background-repeat: no-repeat; /* or 'repeat' */
+    background-position: center; /* or 'top', 'bottom', 'left', 'right' */
 }
 
 header {
