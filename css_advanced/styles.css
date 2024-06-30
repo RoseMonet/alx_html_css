@@ -50,28 +50,31 @@ header span {
     color: white;
 }
 
-header button {
+button {
     padding: 10px 20px;
     background-color: #C271FF;
     color: white;
-    border-start-end-radius: 50px;
+    border: none;
     cursor: pointer;
 }
 
 section {
     padding: 60px 20px;
     text-align: center;
+    color: white;
 }
 
 section h2 {
     font-size: 36px;
     margin-bottom: 20px;
+    color: white;
 }
 
 section > div {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    color: white;
 }
 
 section img {
