@@ -58,7 +58,7 @@ button {
     cursor: pointer;
 }
 
-main  {
+main  section {
     display: flex;
     flex-direction: row;
     gap: 20px;
