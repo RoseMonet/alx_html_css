@@ -58,13 +58,12 @@ button {
     cursor: pointer;
 }
 
-main  section {
+main  section  div{
     display: flex;
     flex-direction: row;
     gap: 20px;
     color: white;
-    flex: 1;
-  overflow-y: auto;
+    text-align: center;
 }
 
 section {
@@ -115,7 +114,7 @@ footer p {
     margin: 0;
 }
 
-div + blockquote {
+blockquote {
     font-size: 18px;
     font-style: normal;
     color: white;
