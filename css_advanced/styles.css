@@ -1,15 +1,14 @@
-
 body {
-    font-family: Arial, sans-serif;
+    font-family: Source Sans Pro;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f4f4f4;
+    background-color: #29303D;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #29303D;
+    color: white;
     padding: 10px 0;
 }
 
@@ -31,7 +30,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: #fff;
+    color: white;
     text-decoration: none;
 }
 
@@ -50,19 +49,19 @@ section > div {
 }
 
 h1, h2, h3 {
-    color: #333;
+    color: white;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #ff5722;
-    color: #fff;
+    background-color:rgb(194, 113, 255);
+    color: white;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #e64a19;
+    background-color: #rgb(194, 113, 255);
 }
 
 img {
