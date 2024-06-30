@@ -58,11 +58,13 @@ button {
     cursor: pointer;
 }
 
-main section > div {
+main section div {
     display: flex;
     flex-direction: row;
     gap: 20px;
     color: white;
+    flex: 1;
+  overflow-y: auto;
 }
 
 section {
