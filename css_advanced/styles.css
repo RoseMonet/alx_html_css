@@ -67,10 +67,24 @@ span {
   gap: 80px;
 }
 
-.name {
+.cards .pro-card img {
+  height: auto;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.cards .pro-card h3 {
   font-weight: 900;
   font-size: 18px;
   line-height: 27px;
+}
+
+.cards .pro-card p {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 nav {
