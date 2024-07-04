@@ -11,6 +11,16 @@
   color: white;
 }
 
+header {
+    background: url("https://i.postimg.cc/k4n3SMXw/Object-jpg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+}
+
 .one {
     background: url("https://i.postimg.cc/k4n3SMXw/Object-jpg.png");
     background-repeat: no-repeat;
@@ -228,12 +238,15 @@ blockquote p {
 
 .three {
   background-color: rgba(7, 22, 41, 1);
-}
-
-.three > div {
-  display: flex;
+display: flex;
   flex-direction: row; 
   gap: 20px;
+}
+
+.three .member {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
 }
 
 .three h2 {
