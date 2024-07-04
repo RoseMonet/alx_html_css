@@ -4,7 +4,7 @@
   box-sizing: border-box;
   outline: none;
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
+  font-family: Source Sans Pro;
   text-transform: capitalize;
   line-height: 1.5;
   letter-spacing: 0.012em;
@@ -29,15 +29,6 @@ nav ul li {
 
 nav ul li a {
   padding: 1rem;
-}
-
-.hero {
-  background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQK22_jP42nU8w-Am8doMXHqztFz5HaV6ykOor_TPcmEXt8rirG"); 
-  background-repeat: no-repeat;
-  background-position: center;
-  background-blend-mode: multiply;
-  background-size: cover;
-  width: 100%;
 }
 
 .text {
