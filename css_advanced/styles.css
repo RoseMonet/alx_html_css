@@ -66,6 +66,8 @@ button {
   padding: 8px 16px;
   border-radius: 32px;
   margin-top: 20px;
+  border: none;
+  display: grid;
 }
 
 .pros {
