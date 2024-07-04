@@ -10,6 +10,7 @@
   letter-spacing: 0.012em;
   color: white;
 }
+
 body {
     background: url("https://i.postimg.cc/k4n3SMXw/Object-jpg.png");
     background-repeat: no-repeat;
@@ -42,6 +43,13 @@ body {
   margin-right: 80px;
   color: white;
   display: inline-block;
+}
+
+button {
+  background-color: rgba(194, 113, 255, 1);
+  padding: 8px 16px;
+  border-radius: 32px;
+  margin-top: 20px;
 }
 
 .pros {
@@ -108,13 +116,6 @@ nav ul {
 nav ul li a {
     color: white;
     text-decoration: none;
-}
-
-button {
-  background-color: rgba(194, 113, 255, 1);
-  padding: 8px 16px;
-  border-radius: 32px;
-  margin-top: 20px;
 }
 
 footer {
