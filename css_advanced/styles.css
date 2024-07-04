@@ -40,6 +40,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   margin-right: 80px;
+  color: white;
 }
 
 .pros {
@@ -58,6 +59,18 @@ body {
 
 span {
   color: rgba(194, 113, 255, 1);
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.name {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 27px;
 }
 
 nav {
