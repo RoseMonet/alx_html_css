@@ -195,7 +195,6 @@ blockquote p {
   height: auto;
   width: 150px;
   object-fit: cover;
-  border-radius: 50%;
 }
 
 .video h3 {
@@ -227,7 +226,8 @@ blockquote p {
   color: white;
 }
 
-.four { display: flex;
+.four { 
+  display: flex;
   flex-direction: row; 
       }
 
