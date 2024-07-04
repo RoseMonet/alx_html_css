@@ -180,6 +180,7 @@ blockquote p {
 .video {
   display: flex;
   gap: 24px;
+  flex-direction: column;
 }
 .video img {
   width: 100%;
