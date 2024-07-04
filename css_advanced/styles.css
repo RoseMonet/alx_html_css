@@ -15,7 +15,7 @@ header {
     background: url("https://i.postimg.cc/k4n3SMXw/Object-jpg.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100% 50%;
+    background-origin: content-box;
     text-align: center;
     width: 100%;
 }
