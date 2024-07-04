@@ -261,10 +261,15 @@ blockquote p {
   text-align: center;
 }
 
+.three h3 p {
+  color: white;
+  text-align: center;
+}
+
 .four > div { 
   display: flex;
   flex-direction: row; 
-  gap: 20px;
+  gap: 10px;
       }
 
 .four h2 {
