@@ -170,12 +170,17 @@ blockquote p {
   color: rgba(7, 22, 41, 1);
 } 
 
-.video {
+
+.members {
   margin-top: 150px;
   display: flex;
   flex-direction: column;
 }
 
+.video {
+  display: flex;
+  gap: 24px;
+}
 .video img {
   width: 100%;
   height: auto;
@@ -203,8 +208,11 @@ blockquote p {
   color: rgba(7, 22, 41, 1);
 } 
 
-three {
+.three {
   background-color: rgba(7, 22, 41, 1);
+}
+
+.three h2 {
   color: white;
 }
 
