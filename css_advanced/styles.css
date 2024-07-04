@@ -4,253 +4,132 @@
   box-sizing: border-box;
   outline: none;
   text-decoration: none;
-  font-family: Source Sans Pro;
+  font-family: Source Sans Pr;
   text-transform: capitalize;
   line-height: 1.5;
   letter-spacing: 0.012em;
   color: white;
 }
 
+header {
+    background: url('https://glambox.com.au/collections/dandruff-and-scalp-care') no-repeat center center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-size: cover;
+    width: 100%;
+}
+
 nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 1em 12em;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav img {
+    height: 50px;
 }
 
 nav ul {
-  list-style: none;
-  display: flex;
-}
-
-nav ul li {
-  position: relative;
+    list-style: none;
+    display: flex;
+    gap: 20px;
 }
 
 nav ul li a {
-  padding: 1rem;
+    color: white;
+    text-decoration: none;
 }
 
-.text {
-  text-align: center;
+header h1 {
+    font-size: 100px;
+    margin: 0;
+    color: white;
+    font-weight: bold;
 }
 
-.text h1 {
-  margin-left: auto;
-  margin-right: auto;
-  font-family: sans-serif;
-  font-weight: 700;
-  font-size: 120px;
-  line-height: 150.84px;
-  margin-top: 1em;
+header span {
+    display: inline-block;
+    margin: 10px;
+    font-size: 16px;
+    color: white;
 }
 
-.text .laughs {
-  display: flex;
-  gap: 80px;
-  justify-content: center;
+button {
+    padding: 10px 20px;
+    background-color: #C271FF;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
-.text .laughs {
-  font-family: sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  margin-right: 80px;
+section {
+    display: flex;
+    flex-direction: row;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
 }
 
-.text a {
-  background-color: rgba(194, 113, 255, 1);
-  padding: 8px 16px;
-  border-radius: 32px;
-  margin-top: 20px;
-  display: inline-block;
+section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
 }
 
-.pros {
-  margin-top: 150px;
-  display: flex;
-  flex-direction: column;
+section > div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: white;
 }
 
-.pros p {
-  text-align: center;
-  font-family: sans-serif;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 40px;
-  margin-bottom: 70px;
+section img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
 }
 
-span {
-  color: rgba(194, 113, 255, 1);
+footer {
+    background-color: #071629;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
-.cards {
-  display: flex;
-  justify-content: center;
-  gap: 80px;
+footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
 }
 
-.cards .pro-card img {
-  height: auto;
-  width: 150px;
-  object-fit: cover;
-  border-radius: 50%;
+footer i {
+    color: white;
+    margin: 0 5px;
 }
 
-.cards .pro-card .name {
-  font-family: sans-serif;
-  font-weight: 900;
-  font-size: 18px;
-  line-height: 27px;
+footer p {
+    margin: 0;
 }
 
-.cards .pro-card p {
-  font-family: sans-serif;
-  font-weight: 400;
-  font-style: italic;
-  font-size: 16px;
-  line-height: 24px;
+blockquote {
+    font-size: 18px;
+    font-style: normal;
+    color: white;
+    margin: 20px;
+    background-color: #C271FF;
 }
 
-#testimonial.container {
-  background-color: rgba(194, 113, 255, 1);
+blockquote h3 {
+    margin: 10px 0 0;
+    font-weight: bold;
+    color: white;
 }
-
-#testimonial.container .testimony {
-  display: flex;
-  align-items: center;
-  padding: 10em;
-  gap: 60px;
-  text-align: left;
-}
-
-#testimonial.container .testimony img {
-  height: auto;
-  width: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-
-#testimonial.container .testimony .text {
-  text-align: left;
-}
-
-#testimonial.container .testimony .text p {
-  max-width: 650px;
-  margin-bottom: 24px;
-  font-family: sans-serif;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 34px;
-}
-
-#testimonial.container .testimony .name {
-  margin-bottom: 12px;
-  font-family: sans-serif;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 34px;
-}
-
-#testimonial.container .testimony .title {
-  font-family: sans-serif;
-  font-style: italic;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 34px;
-}
-
-#tutorials.container {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding: 50px 80px;
-}
-
-#tutorials.container .heading p {
-  font-family: sans-serif;
-  font-weight: 300;
-  font-size: 32px;
-  line-height: 40px;
-  color: rgba(7, 22, 41, 1);
-  margin-bottom: 50px;
-}
-
-#tutorials.container .videos {
-  display: flex;
-  gap: 24px;
-}
-
-#tutorials.container .videos .video {
-  display: flex;
-  flex-direction: column;
-}
-
-#tutorials.container .videos .video img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-#tutorials.container .videos .video .vid-info {
-  text-align: left;
-  padding: 1em 1em;
-}
-
-#tutorials.container .videos .video .vid-info h3 {
-  color: rgba(7, 22, 41, 1);
-}
-
-#tutorials.container .videos .video .vid-info p {
-  font-family: sans-serif;
-  max-width: 260px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  margin-bottom: 16px;
-  color: rgba(7, 22, 41, 0.5);
-}
-
-#tutorials.container .videos .video .vid-info .vid-author {
-  display: flex;
-  flex-direction: column;
-}
-
-#tutorials.container .videos .video .vid-info .vid-author .pic {
-  display: flex;
-  gap: 12px;
-  margin-bottom: 16px;
-}
-
-#tutorials.container .videos .video .vid-info .vid-author .pic img {
-  width: 30px;
-  height: auto;
-  object-fit: cover;
-  border-radius: 15px;
-}
-
-#tutorials.container .videos .video .vid-info .vid-author .pic h4 {
-  font-family: sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 27px;
-  color: rgba(194, 113, 255, 1);
-}
-
-#tutorials.container .videos .video .vid-info .vid-author .ratings {
-  display: flex;
-  justify-content: space-between;
-}
-
-#tutorials.container .videos .video .vid-info .vid-author .ratings p {
-  color: rgba(194, 113, 255, 1);
-  font-weight: 600;
-}
-
-#tutorials.container .videos .video .vid-info .vid-author .ratings .stars i {
-  font-size: 13px;
-  color: rgba(194, 113, 255, 1);
+blockquote p {
+    margin: 10px 0 0;
+    font-weight: italic;
+    color: white;
 }
