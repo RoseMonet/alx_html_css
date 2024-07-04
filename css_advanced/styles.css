@@ -170,7 +170,6 @@ blockquote p {
   color: rgba(7, 22, 41, 1);
 } 
 
-
 .members {
   margin-top: 150px;
   display: flex;
@@ -181,11 +180,6 @@ blockquote p {
   display: flex;
   gap: 24px;
   flex-direction: column;
-}
-.video img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
 }
 
 .video h3 {
