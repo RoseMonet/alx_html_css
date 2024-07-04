@@ -173,7 +173,7 @@ blockquote p {
 .members {
   margin-top: 150px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   text-align: center;
   font-weight: 700;
   font-size: 32px;
