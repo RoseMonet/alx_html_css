@@ -180,6 +180,8 @@ blockquote p {
   display: flex;
   gap: 24px;
   flex-direction: column;
+  text-align: left;
+  padding: 1em 1em;
 }
 
 .video h3 {
