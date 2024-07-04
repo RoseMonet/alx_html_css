@@ -11,13 +11,7 @@
   color: white;
 }
 
-header {
-    background: url("https://i.postimg.cc/k4n3SMXw/Object-jpg.png");
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.one {
+body .one {
     background: url("https://i.postimg.cc/k4n3SMXw/Object-jpg.png");
     background-repeat: no-repeat;
     background-position: center;
