@@ -238,15 +238,15 @@ blockquote p {
 
 .three {
   background-color: rgba(7, 22, 41, 1);
-display: flex;
+  display: flex;
   flex-direction: row; 
   gap: 20px;
 }
 
 .three .member {
   display: flex;
-  justify-content: center;
-  gap: 20px;
+  gap: 5px;
+  display: inline-block;
 }
 
 .three h2 {
