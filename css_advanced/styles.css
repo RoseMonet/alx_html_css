@@ -41,6 +41,7 @@ body {
   line-height: 20px;
   margin-right: 80px;
   color: white;
+  display: inline-block;
 }
 
 .pros {
