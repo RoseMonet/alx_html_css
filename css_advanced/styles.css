@@ -168,7 +168,7 @@ blockquote p {
 
 .video {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .video img {
