@@ -230,14 +230,15 @@ blockquote p {
   background-color: rgba(7, 22, 41, 1);
 }
 
-.three div {
+.three > div {
   display: flex;
-  flex-direction: row; 
+  flex-direction: column; 
   gap: 20px;
 }
 
 .three h2 {
   color: white;
+  text-align: center;
 }
 
 .four > div { 
