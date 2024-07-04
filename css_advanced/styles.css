@@ -171,8 +171,9 @@ blockquote p {
 } 
 
 .video {
+  margin-top: 150px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .video img {
@@ -201,6 +202,10 @@ blockquote p {
   margin-bottom: 16px;
   color: rgba(7, 22, 41, 1);
 } 
+
+three {
+  background-color: rgba(7, 22, 41, 1);
+}
 
 footer {
    background-color: rgba(7, 22, 41, 1);
