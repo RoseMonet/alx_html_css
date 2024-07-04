@@ -246,7 +246,7 @@ display: flex;
 .three .member {
   display: flex;
   justify-content: center;
-  gap: 80px;
+  gap: 20px;
 }
 
 .three h2 {
