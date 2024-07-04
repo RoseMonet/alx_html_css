@@ -176,12 +176,26 @@ blockquote p {
   flex-direction: row;
 }
 
+.members img {
+  height: auto;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 .video {
   display: flex;
   gap: 24px;
   flex-direction: row;
   text-align: left;
   padding: 1em 1em;
+}
+
+.video img {
+  height: auto;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .video h3 {
