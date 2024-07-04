@@ -213,15 +213,16 @@ blockquote p {
   color: white;
 }
 
-.four {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    color: black;
+.four h2 {
+  color: rgba(7, 22, 41, 1);
 }
 
 footer {
    background-color: rgba(7, 22, 41, 1);
+}
+
+.four div {
+  color: rgba(7, 22, 41, 1);
 }
 
 footer div {
