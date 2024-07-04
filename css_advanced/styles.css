@@ -197,7 +197,7 @@ blockquote p {
 } 
 
 .video p {
-   max-width: 260px;
+  max-width: 260px;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -211,6 +211,13 @@ blockquote p {
 
 .three h2 {
   color: white;
+}
+
+.four {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: black;
 }
 
 footer {
