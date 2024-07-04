@@ -249,6 +249,13 @@ blockquote p {
   display: inline-block;
 }
 
+.three .member img {
+  display: flex;
+  flex-direction: row; 
+  gap: 5px;
+  display: inline-block;
+}
+
 .three h2 {
   color: white;
   text-align: center;
