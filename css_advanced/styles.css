@@ -173,13 +173,13 @@ blockquote p {
 .members {
   margin-top: 150px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .video {
   display: flex;
   gap: 24px;
-  flex-direction: column;
+  flex-direction: row;
   text-align: left;
   padding: 1em 1em;
 }
@@ -213,7 +213,15 @@ blockquote p {
   color: white;
 }
 
+.four { display: flex;
+  flex-direction: row; 
+      }
+
 .four h2 {
+  color: rgba(7, 22, 41, 1);
+}
+
+.four h3 {
   color: rgba(7, 22, 41, 1);
 }
 
