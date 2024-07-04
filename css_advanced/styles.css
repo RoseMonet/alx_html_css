@@ -228,10 +228,12 @@ blockquote p {
 
 .three {
   background-color: rgba(7, 22, 41, 1);
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 40px;
-  margin-bottom: 70px;
+}
+
+.three div {
+  display: flex;
+  flex-direction: row; 
+  gap: 20px;
 }
 
 .three h2 {
@@ -246,6 +248,7 @@ blockquote p {
 
 .four h2 {
   color: rgba(7, 22, 41, 1);
+  text-align: center;
 }
 
 .four h3 {
