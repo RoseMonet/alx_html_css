@@ -72,7 +72,7 @@ button {
   margin-bottom: 70px;
 }
 
-.pros span {
+span {
   color: rgba(194, 113, 255, 1);
 }
 
@@ -165,6 +165,38 @@ blockquote p {
     font-weight: italic;
     color: white;
 }
+
+.video {
+  display: flex;
+  flex-direction: column;
+}
+
+.video img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.video h3 {
+  color: rgba(7, 22, 41, 1);
+} 
+
+.videos h4 {
+  color: rgba(194, 113, 255, 1);
+} 
+
+.videos p {
+  color: rgba(194, 113, 255, 1);
+} 
+
+.video p {
+   max-width: 260px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 16px;
+  color: rgba(7, 22, 41, 1);
+} 
 
 footer {
    background-color: rgba(7, 22, 41, 1);
