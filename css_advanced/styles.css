@@ -118,11 +118,46 @@ nav ul li a {
     text-decoration: none;
 }
 
-footer {
-    background-color: #071629;
+#testimonial.container {
+  background-color: rgba(194, 113, 255, 1);
+}
+
+#testimonial.container  {
+  display: flex;
+  align-items: center;
+  padding: 10em;
+  gap: 60px;
+  text-align: left;
+}
+
+#testimonial.container .testimony img {
+  height: auto;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+#testimonial.container .text {
+  text-align: left;
+}
+
+blockquote {
+    font-size: 18px;
+    font-style: normal;
     color: white;
-    padding: 20px;
-    text-align: center;
+    margin: 20px;
+}
+
+blockquote h3 {
+    margin: 10px 0 0;
+    font-weight: bold;
+    color: white;
+}
+blockquote p {
+    margin: 10px 0 0;
+    font-weight: italic;
+    color: white;
 }
 
 footer div {
@@ -139,23 +174,4 @@ footer i {
 
 footer p {
     margin: 0;
-}
-
-blockquote {
-    font-size: 18px;
-    font-style: normal;
-    color: white;
-    margin: 20px;
-    background-color: #C271FF;
-}
-
-blockquote h3 {
-    margin: 10px 0 0;
-    font-weight: bold;
-    color: white;
-}
-blockquote p {
-    margin: 10px 0 0;
-    font-weight: italic;
-    color: white;
 }
