@@ -116,7 +116,7 @@ button {
   border-radius: 32px;
   margin-top: 20px;
   display: block;
-  justify-content: center;
+  position: center;
 }
 
 footer {
