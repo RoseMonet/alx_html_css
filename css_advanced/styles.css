@@ -182,6 +182,12 @@ blockquote p {
   color: rgba(7, 22, 41, 1);
 } 
 
+.two .video { 
+  display: flex;
+  flex-direction: row; 
+  gap: 10px;
+      }
+
 .members {
   margin-top: 150px;
   display: flex;
