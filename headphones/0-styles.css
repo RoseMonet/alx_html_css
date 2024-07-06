@@ -31,8 +31,6 @@ nav ul li a {
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
-  display:flex;
-  position: relative;
 }
 
 .hero-text {
