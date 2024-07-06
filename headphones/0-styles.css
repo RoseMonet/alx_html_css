@@ -7,8 +7,9 @@ body, html {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 20 5px;
+    padding: 5px 40px;
     top: 0;
+    width: 100;
     align-items: center;
     position: fixed;
     z-index: 1000;
@@ -22,6 +23,7 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
+    margin: 0;
 }
 
 nav ul li a {
