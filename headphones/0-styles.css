@@ -8,7 +8,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 40px;
 }
 
 nav img {
@@ -54,7 +54,7 @@ body {
 }
 
 .hero-text p {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: normal;
   padding-top: 40px;
 }
