@@ -50,19 +50,20 @@ body {
 .hero-text h2 {
   font-size: 25px;
   font-weight: bold;
+  padding-bottom: 30px;
 }
 
 .hero-text p {
   font-size: 12px;
   font-weight: normal;
+  padding-top: 40px;
 }
 
 .hero-text button {
   border: none;
   outline: 0;
   display: inline-block;
-  padding-top: 25px;
-  padding-bottom: 50px;
+  padding: 20px 40px;
   color: white;
   background-color: #FF6565;
   text-align: center;
