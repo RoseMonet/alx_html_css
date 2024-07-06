@@ -42,6 +42,21 @@ body {
   color: white;
 }
 
+.hero-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.hero-text h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.hero-text p {
+  font-size: 14px;
+  font-weight: normal;
+}
+
 .hero-text button {
   border: none;
   outline: 0;
