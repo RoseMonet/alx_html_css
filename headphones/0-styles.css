@@ -34,6 +34,8 @@ nav ul li a {
 }
 
 .hero-text {
+  justify-content: center;
+  align-content: center;
   text-align: center;
   top: 50%;
   left: 50%;
