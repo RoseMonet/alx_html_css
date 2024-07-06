@@ -7,6 +7,8 @@ body, html {
 nav {
     display: flex;
     justify-content: space-between;
+    top: 0;
+    width: 100%;
     align-items: center;
     padding: 0 40px;
     position: fixed;
@@ -38,7 +40,6 @@ nav ul li a {
   justify-content: center;
   align-items: center;
   position: relative;
-  padding-top: 60px;
 }
 
 .hero-text {
