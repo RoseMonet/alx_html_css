@@ -10,6 +10,7 @@ nav {
     align-items: center;
     padding: 0 40px;
     position: fixed;
+    z-index: 1000;
 }
 
 nav img {
@@ -37,6 +38,7 @@ nav ul li a {
   justify-content: center;
   align-items: center;
   position: relative;
+  padding-top: 60px;
 }
 
 .hero-text {
