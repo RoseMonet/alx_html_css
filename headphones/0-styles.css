@@ -31,6 +31,9 @@ nav ul li a {
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
+  display:flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .hero-text {
