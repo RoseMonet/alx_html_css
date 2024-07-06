@@ -1,7 +1,7 @@
 body, html {
   height: 100%;
   margin: 0;
-  font-family: Source Sans Pro;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 nav {
@@ -51,6 +51,7 @@ body {
   background-color: #FF6565;
   text-align: center;
   cursor: pointer;
+  border-radius: 32px;
 }
 
 .hero-text button:hover {
