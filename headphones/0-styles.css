@@ -6,7 +6,7 @@ body, html {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 20 5px;
     top: 0;
     align-items: center;
