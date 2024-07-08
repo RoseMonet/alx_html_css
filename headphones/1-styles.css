@@ -6,12 +6,9 @@ body, html {
 
 nav {
    display: flex;
-    justify-content: space-between;
-    padding: 5px 40px;
-    top: 0;
-    position: relative;
-    align-items: center;
-    z-index: 1000;
+   justify-content: space-between;
+   padding: 1em 12em;
+   align-items: center;
 }
 
 nav img {
