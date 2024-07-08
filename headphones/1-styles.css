@@ -9,7 +9,7 @@ nav {
     justify-content: space-between;
     padding: 5px 40px;
     top: 0;
-    width: 100;
+    position: relative;
     align-items: center;
     z-index: 1000;
 }
