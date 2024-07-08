@@ -5,13 +5,10 @@ body, html {
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 5px 40px;
-    top: 0;
-    align-items: center;
-    position: relative;
-    z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 12em;
+  align-items: center;
 }
 
 nav img {
@@ -85,13 +82,13 @@ nav ul li a {
 }
 
 .one {
-  text-align: center;
-  padding: 60px 20px;
   background-color: white; 
   color: black;
 }
 
 .one h2 {
+  text-align: center;
+  padding: 60px 20px;
   font-size: 25px;
   font-weight: bold;
   padding-top: 30px;
@@ -99,6 +96,8 @@ nav ul li a {
 }
 
 .one p {
+  text-align: center;
+  padding: 60px 20px;
   font-size: 15px;
   font-weight: normal;
   padding-top: 20px;
@@ -108,9 +107,8 @@ nav ul li a {
 }
 
 .icons {
-  margin-top: 30px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
