@@ -10,7 +10,7 @@ nav {
     padding: 5px 40px;
     top: 0;
     align-items: center;
-    position: fixed;
+    position: relative;
     z-index: 1000;
 }
 
@@ -82,13 +82,6 @@ nav ul li a {
 .hero-text button:hover {
   background-color: #FF9595;
   color: white;
-}
-
-.hero-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
 }
 
 .one {
