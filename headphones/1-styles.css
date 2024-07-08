@@ -125,8 +125,9 @@ nav ul li a {
   font-weight: normal;
 }
 
-.iconc span {
+.icons span {
   font-size: 50px;
+  color: #FF6565;
 }
 
 @font-face {font-family: 'holberton_school-icon';
