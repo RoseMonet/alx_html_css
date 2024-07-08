@@ -5,10 +5,14 @@ body, html {
 }
 
 nav {
-   display: flex;
-   justify-content: space-between;
-   padding: 1em 12em;
-   align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 40px;
+    top: 0;
+    width: 100;
+    align-items: center;
+    position: fixed;
+  
 }
 
 nav img {
