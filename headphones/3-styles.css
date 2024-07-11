@@ -331,11 +331,7 @@ nav ul li a {
     margin-bottom: 20px;
     font-size: 16px;
     border: none;
-    border-bottom: 5px
-}
-
-.contact form label {
-    float: left;
+    border-bottom: 5px solid #000000;
 }
 
 .contact form label {
