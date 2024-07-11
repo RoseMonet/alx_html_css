@@ -330,6 +330,16 @@ nav ul li a {
     padding: 10px;
     margin-bottom: 20px;
     font-size: 16px;
+    border: none;
+    border-bottom: 5px
+}
+
+.contact form label {
+    float: left;
+}
+
+.contact form label {
+    float: left;
 }
 
 .contact button {
