@@ -223,9 +223,9 @@ nav ul li a {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-  animation-duration: 3s;
-  animation-name: slidein;
-  animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
 }
 
 .icons {
@@ -284,6 +284,9 @@ nav ul li a {
   justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 1rem;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
 }
 
 .result {
