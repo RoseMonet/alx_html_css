@@ -192,6 +192,17 @@ nav ul li a {
     width: 100%;
 }
 
+@keyframes slidein {
+  from {
+    translate: 150vw 0;
+    scale: 200% 1;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
+
 #what-we-do {
   background: white;
     color: black;
@@ -285,17 +296,6 @@ nav ul li a {
   flex-wrap: wrap;
   gap: 1rem;
 }
-
-@keyframes slidein {
-  from {
-    translate: 150vw 0;
-    scale: 200% 1;
-  }
-
-  to {
-    translate: 0 0;
-    scale: 100% 1;
-  }
 
 .result {
   background-image: url(https://i.postimg.cc/ZKXnsrZG/pentagone.png);
