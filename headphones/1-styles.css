@@ -130,18 +130,18 @@ nav ul li a {
 }
 
 .hero-image {
-  background-image: url("https://i.postimg.cc/76B9k5nD/headphones-hero-1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  flex-direction: column;
-  gap: 11rem;
-  padding: 8vh 5vw;
-  text-align: center;
+    background-image: url("https://i.postimg.cc/76B9k5nD/headphones-hero-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    gap: 11rem;
+    padding: 8vh 5vw;
+    text-align: center;
 }
 
 .hero-text {
