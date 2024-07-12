@@ -192,17 +192,6 @@ nav ul li a {
     width: 100%;
 }
 
-@keyframes slidein {
-  from {
-    translate: 150vw 0;
-    scale: 200% 1;
-  }
-
-  to {
-    translate: 0 0;
-    scale: 100% 1;
-  }
-
 #what-we-do {
   background: white;
     color: black;
@@ -393,3 +382,15 @@ footer p {
     text-align: center;
     margin-bottom: 30px;
 }
+
+@keyframes slidein {
+  from {
+    translate: 150vw 0;
+    scale: 200% 1;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
+
