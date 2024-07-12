@@ -306,10 +306,6 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  animation-duration: 3s;
-  animation-name: slidein;
-  animation-iteration-count: infinite;
-  
 }
 
 .result h3 {
