@@ -365,14 +365,14 @@ footer div {
     justify-content: space-between;
     align-items: center;
     gap: 15px;
+    margin-top: 20px 50px;
 }
 
 footer i {
     color: white;
-    margin: 0 5px;
 }
 
 footer p {
-    margin: 0;
+    text-align: center;
 }
 
